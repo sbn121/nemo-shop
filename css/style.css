@@ -1,0 +1,135 @@
+body {
+    font-family: 'Hahmlet', serif;
+    font-family: 'Noto Sans KR', sans-serif;    
+}
+.d-none {
+    display: none;
+}
+
+header .logo {
+    width: 128px;
+    height: 66px;
+    margin: 0 auto;
+}
+.page-title {
+    background: #4B719C;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 20px;
+}
+.login_field, .check_field {
+    width: 600px;
+    margin: 50px auto;
+    border: 1px solid #666;
+    padding: 30px;
+}
+.login_field h2, .check_field h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#order_num {
+    width: 85%;
+    padding: 15px 0;
+    margin: 10px 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+   text-indent: 20px;/*글자 들여쓰기*/
+}
+#guk_num, #mid_num, #last_num {
+    padding: 15px 0;
+    margin : 10px 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+   text-indent: 20px;/*글자 들여쓰기*/
+}
+#guk_num {
+    width: 26%;
+}
+#mid_num {
+    width: 26%;
+}
+#last_num {
+    width: 26%;
+}
+[for=order_num], [for=guk_num] {
+    width: 11%;
+    display: inline-block;
+    margin-right: 2%;
+    color: #4B719C;
+    text-align: center;
+    border: 1px solid #4B719C;
+    padding: 5px 0;
+}
+[type=text], [type=password], [type=submit], [type=button] {
+    width: 100%;
+    padding: 15px 0;
+    margin: 10px 0;
+} 
+[type=button] {
+    background-color: #4B719C;
+    color: white;
+    border: 0;
+    font-size: 16px;
+}
+[type=submit] {
+    font-size: 16px;
+    border-color: #4B719C;
+}
+#u_id, #u_pw{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+   text-indent: 20px;/*글자 들여쓰기*/
+}
+.screen_out {
+    position : absolute;
+    left: -100%;
+    width: 0;
+    height: 0;
+}
+.links  {
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 10px 0;
+    text-align: center;
+}
+.links li {
+    display: inline-block;  /*한 줄 정렬*/
+}
+.links li:nth-child(2){
+    margin: 0 15px
+}
+.links a {
+    color: #999;
+    text-decoration: none;
+    font-size: 14px;
+}
+footer {
+    text-align: center;
+}
+.contact {
+    font-size: 40px;
+    color: #4B719C;
+    margin: 15px 0;
+}
+.address {
+    font-size: 13px;
+    color: #999;
+    margin: 15px 0;
+}
+.owner {
+    font-size: 12px;
+    color: #999;
+}
+footer .logo2 {
+    width: 177px;
+    margin: 30px auto;
+}
