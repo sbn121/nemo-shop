@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>네모샵(nemoshop)</title>
+</head>
+<body>
+    <h1 class="d-none">네모샵 - 멤버쉽</h1>
+    <header>
+        <div class="logo">
+            <img src="images/header-logo.png" alt="네모샵">
+        </div>
+        <div class="page-title">
+            <p>membership</p>
+        </div>
+    </header>
+    <section>
+        <article>
+            <form>
+                <fieldset>
+                    <legend class="d-none">회원 로그인</legend>
+                    <div class="login_field">
+                        <h2>회원로그인</h2>
+                        <div>
+                            <label for="u_id" class=".screen_out">아이디</label>
+                            <input type="text" id="u_id" name="u_id" maxlength="12" placeholder="아이디">
+                        </div>
+                        <div>
+                            <label for="u_pw" class=".screen_out">비밀번호</label>
+                            <input type="password" id="u_pw" name="u_pw" maxlength="16" placeholder="비밀번호">
+                        </div>
+                        <div>
+                            <input type="checkbox" id="save_id" name="save_id" checked>
+                            <label for="save_id" class=".screen_out">아이디 저장</label>
+                        </div>
+                        <div>
+                            <input type="submit" value="로그인">
+                            <button type="button">회원가입</button>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend class="d-none">비회원 주문조회</legend>
+                        <div class="check_field">
+                            <h2>비회원 주문조회</h2>
+                            <div>
+                                <label for="order_num">주문번호</label>
+                                <input type="text" id="order_num" name="order_num" placeholder="-를 빼고 입력하세요">
+                            </div>
+                            <div>
+                                <label for="guk_num">연락처</label>
+                                <select name="guk_num" id="guk_num">
+                                    <option value="010">010</option>
+                                    <option value="02">02</option>
+                                    <option value="051">051</option>
+                                    <option value="062">062</option>
+                                    <option value="080">080</option>
+                                    <option value="070">070</option>
+                            </select>
+                            -
+                            <input type="text" id="mid_num" name="mid_num" maxlength="4">
+                            -
+                            <input type="text" id="last_num" name="last_num" maxlength="4">
+                        </div>
+                        <div>
+                            <button type="submit">주문조회</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </article>
+    </section>
+    <aside>
+        <ul>
+            <li>
+                <a href="#">이용약관</a>
+            </li>
+            <li>
+                <a href="#">개인정보취급방침</a>
+            </li>
+            <li>
+                <a href="#">고객센터</a>
+            </li>
+        </ul>
+    </aside>
+    <footer>
+        <p class="contact">1566.5678</p>
+        <p>광주광역시 서구 경열로 3, 네모샵</p>
+        <p>copyright&copy; 2017. nemoshop. all rights reserved.</p>
+        <div class="logo2">
+            <img src="images/footer-logo.png" alt="네모샵">
+        </div>
+    </footer>
+</body>
+</html>
